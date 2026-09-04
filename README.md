@@ -9,9 +9,10 @@ Scrape content from any website URL, split it into semantic chunks, generate emb
 ## 🚀 Features
 
 - **🌐 Web Scraper & Text Chunker:** Automatically fetches webpage content, strips boilerplate/navigation, and generates overlapping chunks.
+-** upload document of diffrent types Automatically fetches document  content, strips boilerplate/navigation, and generates overlapping chunks
 - **🧠 Google Gemini Integration:**
   - Embeddings generation with `models/text-embedding-004` (768 dimensions).
-  - Contextual question answering with `gemini-1.5-flash`, `gemini-1.5-pro`, or `gemini-2.0-flash`.
+  - Contextual question answering with `gemini-3.5-flash`, `gemini-1.5-pro`, or `gemini-2.0-flash`.
 - **🐘 PostgreSQL + pgvector Storage:** Stores vectorized document chunks with cosine similarity HNSW indexing for rapid retrieval.
 - **💬 Streamlit Chat Interface:**
   - Interactive chat session with streaming capability and history.
@@ -39,7 +40,7 @@ Scrape content from any website URL, split it into semantic chunks, generate emb
 
 1. **Clone the repository and navigate to the folder:**
    ```bash
-   cd streamlit-calculator
+   cd myfirsttestapp
    ```
 
 2. **Create and activate a virtual environment (optional but recommended):**
