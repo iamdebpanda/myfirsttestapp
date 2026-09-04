@@ -9,7 +9,7 @@ Scrape content from any website URL, split it into semantic chunks, generate emb
 ## 🚀 Features
 
 - **🌐 Web Scraper & Text Chunker:** Automatically fetches webpage content, strips boilerplate/navigation, and generates overlapping chunks.
--** upload document of diffrent types Automatically fetches document  content, strips boilerplate/navigation, and generates overlapping chunks
+- **🌐 File Upload  & Text Chunker:** Upload document of diffrent types Automatically fetches document  content, strips boilerplate/navigation, and generates overlapping chunks
 - **🧠 Google Gemini Integration:**
   - Embeddings generation with `models/text-embedding-004` (768 dimensions).
   - Contextual question answering with `gemini-3.5-flash`, `gemini-1.5-pro`, or `gemini-2.0-flash`.
